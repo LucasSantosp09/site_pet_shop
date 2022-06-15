@@ -1,0 +1,159 @@
+body{
+    margin: 0;
+}
+.logo{
+    font-size: 28px;
+}
+.topo-oferta{
+    padding: 0.1px;
+    background-color: black;
+    color: white;
+}
+
+.topo-oferta p{
+    margin-left: 10px;
+}
+
+header{
+    display: flex;
+    background-color: #F0A83E;
+    align-content: flex-start;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.cabecalho-menu{
+    display: flex;
+    list-style: none;
+}
+
+.cabecalho-menu li {
+    margin-left: 10px;
+    color: white;
+}
+
+.banner img{
+    width: 100%;
+}
+.produtos-destaque{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+.produtos-destaque h1 {
+    color:  #3C2313;
+    font-family: sans-serif;
+    font-size: 40px;
+    margin-top: 10px;
+}
+.produtos-destaque-menu{
+    display: flex;
+    margin-right: 100px;
+}
+
+.produtos-destaque-menu li {
+    list-style: none;
+    padding-left: 12px;
+}
+
+.produtos-destaque-menu li:hover{
+    color:#3C2313 ;
+} 
+
+.imagens-produtos-destaque{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item-imagens-produtos-destaque{
+    margin-left: 15px;
+}
+
+.item-imagens-produtos-destaque h3{
+    text-align: center;
+    color: #3C2313;
+    font-size: 14px;
+}
+
+.item-imagens-produtos-destaque p{
+    text-align: center;
+    color: #F0A83E;
+    font-size: 12px;
+}
+
+.contato{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.contato input {
+    margin-bottom: 10px;
+    background-color: #3C2313;
+    color:white;
+    border-radius: 15px;
+    width: 300px;
+    height: 40px;
+    font-size: 10px;
+}
+.contato button{
+    width: 110px;
+    height: 34px;
+    border-radius: 15px;
+    margin-left: 10px;
+    border: none;
+}
+.cinza {
+    background-color: #8A8787;
+    color: white;
+}
+
+.amarelo {
+    background-color: #F0A83E;
+    color: white;
+}
+
+footer .novidades{
+padding: 20px;
+background: #F0A83E;
+} 
+
+footer .dados{
+    padding: 80px;
+    background-color: #3C2313;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .dados-esquerda {
+    display: flex;
+    flex-direction: column;
+
+}
+
+footer .direitos-autorais{
+    padding: 5px;
+    background: black;
+    color: white;
+    text-align: center;
+}
+
+footer .logo {
+    margin-bottom: 40px;
+}
+
+@media (max-width: 430px) {
+    .topo-oferta{
+        display: none;
+    }
+    .cabecalho-menu{
+        display: none;
+    }
+    .imagens-produtos-destaque{
+        flex-direction: column;
+    }
+    footer .dados {
+        flex-direction: column;
+    }
+}
